@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: white;
+}
+
+article#menshoes section:first-child {
+    width:30%;
+    float: left;
+    height: 100vw;
+    padding: 0.4em;
+}
+
+article#menshoes section:first-child li {
+    list-style: none;
+}
+
+body > main > article#menshoes > section#shoesselect {
+    width:70%;
+    float: left;
+    padding: 0.4em;
+}
+
+
+
+body > main > article#menshoes > section#shoesselect div.shoes {
+    width: 30%;
+    float: left;
+    padding: 15px;
+}
+
+body > main > article#menshoes > section#shoesselect > div > div {
+    /* position: relative; */
+    /* margin:1vw; */
+    float: left;
+    /* word-wrap: break-word; */
+    width: 30%;
+}    
+
+body > main > article#menshoes {
+    width: 60vw;
+    margin: auto;
+}
+
+body > main > article#menshoes > section#shoesselect > div > p > span:nth-child(1) {
+    font-weight: bold;
+}
+
+
+body > main > article#menshoes > section#shoesselect > div > p > span:nth-child(5) {
+    font-weight: bold;
+    float: right;
+}
+
+body > main > article#menshoes > section#shoesselect > div > p > span:nth-child(2) {
+    color: rgb(189, 15, 102);
+    text-decoration: line-through;
+    float: right;
+}
+
+body > main > article#menshoes > section#shoesselect > div > p > span:nth-child(4) {
+    display: inline-block;
+    width: 70%;
+    word-break: break-all;
+    overflow: hidden;
+    height: 1em;
+}
+
+
+body > main > article#menshoes > section#shoesselect > div > img {
+    margin: auto;
+}
+
+body > main > article#menshoes > section#shoesselect > div > p {
+    word-wrap: break-word;
+
+}
